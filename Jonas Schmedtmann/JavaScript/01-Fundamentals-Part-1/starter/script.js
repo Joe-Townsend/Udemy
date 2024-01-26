@@ -50,16 +50,117 @@ console.log("First Job: " + myFirstJob + ", Current Job: " + myCurrentJob);*/
 
 // console.log(typeof null);
 
-let age = 30;
-console.log(age);
-age = 31;
-console.log(age);
+// let age = 30;
+// console.log(age);
+// age = 31;
+// console.log(age);
 
-const birthYear = 1991;
+// const birthYear = 1991;
 // birthYear = 1990;
 
-var job = ';programmer';
-job = 'teacher';
+// var job = ';programmer';
+// job = 'teacher';
 
-lastName= 'Townsend'
-console.log(lastName)
+// lastName= 'Townsend'
+// console.log(lastName)
+
+// const now = 2037;
+// const ageJoe = now - 1991;
+// const ageMohammed = now - 2018;
+// console.log(ageJoe, ageMohammed);
+// console.log(ageJoe * 2, ageMohammed / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+// const firstName = 'Joe';
+// const lastName = 'Townsend';
+// console.log(firstName + ' ' + lastName);
+
+// assignment operators
+// let x = 10 + 5;
+// x += 10;
+// x *= 4;
+// x ++;
+// x --;
+// console.log(x);
+
+// comparison operators
+// console.log(ageJoe > ageMohammed); // <, >, >=, <=
+// console.log(ageMohammed >= 18);
+
+// const isFullAge = ageMohammed >=43
+// console.log(now-1994 > now - 2018);
+
+// const now = 2037;
+// const ageJoe = now - 1991;
+// const ageMohammed = now - 2018;
+// console.log(now-1994 > now - 2018);
+
+// console.log(25-10-5);
+
+// let x, y;
+// x = y = 25-10-5; // x = y = 10, x = 10
+// console.log(x, y); // 10 10 
+
+// const averageAge = (ageJoe + ageMohammed) / 2;
+// console.log(ageJoe, ageMohammed, averageAge);
+
+// const firstName = 'Jonas';
+// const job = 'teacher';
+// const birthYear = 1991;
+// const year = 2037;
+
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + 'years old ' + job + '!';
+// console.log(jonas);
+
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(jonasNew);
+// console.log(`Just a regular string...`);
+// console.log('String with\n\
+// multiple\n\
+// lines');
+
+// console.log(`string
+// with
+// multiple
+// lines`);
+
+// const age = 19;
+// const isOldEnough = age >= 18;
+
+// if (isOldEnough) {
+//     console.log(`Sarah can start driving license no 🚗`);
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young, wait another ${yearsLeft} years bitch 😡`);
+// }
+
+// const birthYear = 2000;
+
+// let century;
+// if(birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
+
+//type conversion
+const inputYear ='1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('jonas'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coercion
+console.log('I am ' + 23 + ' years old');
+console.log('I am ' + '23' + ' years old');
+console.log('I am ' + String(23) + ' years old');
+console.log('23' - '10' - 3);
+console.log('23' / '2')
+
+let n = '1' + 1;
+n = n - 1;
+console.log()
