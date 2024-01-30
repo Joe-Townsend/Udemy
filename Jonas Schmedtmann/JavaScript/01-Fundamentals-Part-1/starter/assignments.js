@@ -5,7 +5,7 @@
 // console.log("Country: " + country+ "\nContinent: " + continent + "\nPopulation: " + population);
 
 // const isIsland = true;
-// let language = 'English';
+// const language = 'English';
 
 // console.log(typeof isIsland)
 // console.log(typeof population)
@@ -28,8 +28,46 @@
 //     console.log(`${country}'s population is ${33 - population} below average`)
 // }
 
-console.log('9' - '5'); // -> 
-console.log('19' - '13' + '17'); // -> 
-console.log('19' - '13' + 17); // -> 
-console.log('123' < 57); // -> 
-console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 
+// console.log('9' - '5'); // -> 
+// console.log('19' - '13' + '17'); // -> 
+// console.log('19' - '13' + 17); // -> 
+// console.log('123' < 57); // -> 
+// console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 
+
+// const numNeighbours = Number(prompt('How many neighbour countries does your contry have?'));
+// if (numNeighbours === 1) {
+//     console.log('Only 1 border!')
+// } else if (numNeighbours > 1) {
+//     console.log('More than 1 border!')
+// } else {
+//     console.log('No Borders!')
+// }
+
+// if (language === 'English' && population < 50 && !isIsland) {
+//     console.log(`Sarah should live in ${country} !`)
+// } else {
+//     console.log(`${country} is probably not for Sarah!`)
+// }
+
+// const language = 'chinese';
+
+// switch(language) {
+//     case 'mandarin':
+//     case 'chinese':
+//         console.log('MOST number of native speakers!')
+//         break;
+//     case 'spanish':
+//         console.log('2nd place in number of native speakers')
+//         break;
+//     case 'english':
+//         console.log('3rd place')
+//         break;
+//     case 'hindi':
+//         console.log('Number 4')
+//         break;
+//     case 'arabic':
+//         console.log('5th most spoken language')
+//         break;
+//     default:
+//         console.log('Great language too :D')
+// }

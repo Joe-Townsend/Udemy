@@ -169,9 +169,106 @@ console.log("First Job: " + myFirstJob + ", Current Job: " + myCurrentJob);*/
 // console.log(Boolean(0))
 // console.log(Boolean('Joe'))
 
-const money = 0;
-if(money) {
-    console.log("Don't spend it all");
-} else {
-    console.log("You should get a job");
+// const money = 0;
+// if(money) {
+//     console.log("Don't spend it all");
+// } else {
+//     console.log("You should get a job");
+// }
+
+// let height = 0;
+// if(height) {
+//     console.log('YAY! height is defined');
+// } else {
+//     console.log('height is UNDEFINED');
+// }
+
+// const age = 18;
+// if (age === 18) console.log('You just became an adult 😊')
+
+// 18 == '18' -> true
+// 18 === '18' -> false
+// == allows for type conversion === does not
+
+// const favourite = Number(prompt("What's your favourite number?"));
+
+// console.log(favourite);
+// console.log(typeof favourite);
+// console.log(typeof String(favourite));
+
+// if (favourite === 23){
+//     console.log('Cool! 23 is a great number');
+// } else if (favourite === 7) {
+//     console.log('7 is also a cool number');
+// } else {
+//     console.log('number is not 23 or 7');
+// }
+
+// if(favourite !== 23) console.log('Why would it not be 23!?');
+
+// const hasDriversLicense = true; // A
+// const hasGoodVision = true // B
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
+
+// const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if(shouldDrive){
+//     console.log('Sarah can drive OMG!')
+// } else {
+//     console.log('Get someone else to drive! 😡')
+// }
+
+// const isTired = false; // C
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log('Sarah can drive OMG!')
+// } else {
+//     console.log('Get someone else to drive! 😡')
+// }
+
+// const day = 'saturday';
+
+// switch (day) {
+//     case 'monday': // day === 'monday'
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup')
+//         break;
+//     case 'tuesday':
+//         console.log('prepare theory videos')
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('write code examples')
+//         break;
+//     case 'friday':
+//         console.log('record videos')
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('enjoy the weekend')
+//         break;
+//     default:
+//         console.log('not a valid day')
+// }
+
+// if (day === 'monday') {
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+// } else if (day === 'tuesday') {
+//     console.log('prepare theory videos');
+// } else if (day === 'wednesday' || day === 'thursday') {
+//     console.log('write code examples');
+// } else if (day === 'friday') {
+//     console.log('record videos');
+// } else if (day === 'saturday' || day === 'sunday') {
+//     console.log('enjoy the weekend');
+// } else {
+//     console.log('not a valid day');
+// }
+
+if (23>10) {
+    const str = '23 is bigger'
 }
