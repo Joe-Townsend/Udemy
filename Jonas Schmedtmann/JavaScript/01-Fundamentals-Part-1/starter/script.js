@@ -145,22 +145,33 @@ console.log("First Job: " + myFirstJob + ", Current Job: " + myCurrentJob);*/
 // console.log(century);
 
 //type conversion
-const inputYear ='1991';
-console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear) + 18);
+// const inputYear ='1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
 
-console.log(Number('jonas'));
-console.log(typeof NaN);
+// console.log(Number('jonas'));
+// console.log(typeof NaN);
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
 
 //type coercion
-console.log('I am ' + 23 + ' years old');
-console.log('I am ' + '23' + ' years old');
-console.log('I am ' + String(23) + ' years old');
-console.log('23' - '10' - 3);
-console.log('23' / '2')
+// console.log('I am ' + 23 + ' years old');
+// console.log('I am ' + '23' + ' years old');
+// console.log('I am ' + String(23) + ' years old');
+// console.log('23' - '10' - 3);
+// console.log('23' / '2')
 
-let n = '1' + 1;
-n = n - 1;
-console.log()
+// let n = '1' + 1;
+// n = n - 1;
+// console.log()
+
+// 5 falsy values: 0, '', undefined, null, NaN
+// console.log(Boolean(0))
+// console.log(Boolean('Joe'))
+
+const money = 0;
+if(money) {
+    console.log("Don't spend it all");
+} else {
+    console.log("You should get a job");
+}
