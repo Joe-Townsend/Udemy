@@ -1,6 +1,6 @@
-// const country = 'England'
+const country = 'England'
 // const continent = 'Europe'
-// let population = 56
+let population = 56
 
 // console.log("Country: " + country+ "\nContinent: " + continent + "\nPopulation: " + population);
 
@@ -71,3 +71,5 @@
 //     default:
 //         console.log('Great language too :D')
 // }
+
+// console.log(`${country}'s population is ${population > 33 ? 'above average' : 'below average'}`);

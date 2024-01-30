@@ -1,16 +1,16 @@
+// FUNDAMENTALS PART 1
+
 // CHALLENGE 1
 
 // BMI = mass / height ** 2 = mass / (height * height)
 
 // let markHeight = 1.69;
 // let johnHeight = 1.95;
-
 // let markMass = 78;
 // let johnMass = 92;
 
 // let markHeight = 1.88;
 // let johnHeight = 1.76;
-
 // let markMass = 95;
 // let johnMass = 85;
 
@@ -39,6 +39,7 @@
 //     console.log(`John's BMI (${BMIJohn}) is highrt than Mark's (${BMIMark})!`)
 // }
 
+
 // CHALLENGE 3
 
 // const scoreDolphins = (96 + 108 + 89) / 3;
@@ -52,3 +53,15 @@
 // } else {
 //     console.log("Both win the trophy")
 // }
+
+
+// CHALLENGE 4
+
+// const bill = 275;
+// const tip = bill >= 50 && bill <= 300 ? bill*0.15 : bill*0.2;
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+
+
+// FUNDAMENTALS PART 2
+
+// CHALLENGE 1
